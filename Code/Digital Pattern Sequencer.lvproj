@@ -24,7 +24,6 @@
 			<Item Name="SMU Level Settings Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/SMU Level Settings Extract.vi"/>
 			<Item Name="Device Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/Device Name Extract.vi"/>
 			<Item Name="Parse XML String for Multiple Nodes.vi" Type="VI" URL="../Digital Pattern Sequencer/Parse XML String for Multiple Nodes.vi"/>
-			<Item Name="Patten Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/Patten Name Extract.vi"/>
 			<Item Name="Burst Pattern.vi" Type="VI" URL="../Digital Pattern Sequencer/Burst Pattern.vi"/>
 			<Item Name="Pin Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/Pin Name Extract.vi"/>
 			<Item Name="DPI Configuration.vi" Type="VI" URL="../Digital Pattern Sequencer/DPI Configuration.vi"/>
@@ -33,6 +32,7 @@
 			<Item Name="DPI Initialization.vi" Type="VI" URL="../Digital Pattern Sequencer/DPI Initialization.vi"/>
 			<Item Name="Run TDR.vi" Type="VI" URL="../Digital Pattern Sequencer/Run TDR.vi"/>
 			<Item Name="TDR Feature.vi" Type="VI" URL="../Digital Pattern Sequencer/TDR Feature.vi"/>
+			<Item Name="Patten Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/Patten Name Extract.vi"/>
 		</Item>
 		<Item Name="Digital Pattern Sequencer UI.lvlib" Type="Library" URL="../Digital Pattern Sequencer UI/Digital Pattern Sequencer UI.lvlib"/>
 		<Item Name="Digital Pattern Sequencer.lvclass" Type="LVClass" URL="../Digital Pattern Sequencer/Digital Pattern Sequencer.lvclass"/>
@@ -94,7 +94,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{329D029F-B521-4EA7-9016-251D609F696D}</Property>
-				<Property Name="Bld_version.build" Type="Int">100</Property>
+				<Property Name="Bld_version.build" Type="Int">101</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Digital Pattern Sequencer UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Digital Pattern Sequencer UI.lvlibp</Property>
