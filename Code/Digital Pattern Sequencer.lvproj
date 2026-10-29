@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,6 +14,26 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="SubVI" Type="Folder">
+			<Item Name="DUT Bring Up.vi" Type="VI" URL="../Digital Pattern Sequencer/DUT Bring Up.vi"/>
+			<Item Name="SMU Channel Number Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/SMU Channel Number Extract.vi"/>
+			<Item Name="File Path Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/File Path Extract.vi"/>
+			<Item Name="DUT Bringup Search for correct digipat File.vi" Type="VI" URL="../Digital Pattern Sequencer/DUT Bringup Search for correct digipat File.vi"/>
+			<Item Name="DUT Bringup check if using SMU.vi" Type="VI" URL="../Digital Pattern Sequencer/DUT Bringup check if using SMU.vi"/>
+			<Item Name="PPMU Level Settings Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/PPMU Level Settings Extract.vi"/>
+			<Item Name="SMU Level Settings Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/SMU Level Settings Extract.vi"/>
+			<Item Name="Device Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/Device Name Extract.vi"/>
+			<Item Name="Parse XML String for Multiple Nodes.vi" Type="VI" URL="../Digital Pattern Sequencer/Parse XML String for Multiple Nodes.vi"/>
+			<Item Name="Patten Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/Patten Name Extract.vi"/>
+			<Item Name="Burst Pattern.vi" Type="VI" URL="../Digital Pattern Sequencer/Burst Pattern.vi"/>
+			<Item Name="Pin Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/Pin Name Extract.vi"/>
+			<Item Name="DPI Configuration.vi" Type="VI" URL="../Digital Pattern Sequencer/DPI Configuration.vi"/>
+			<Item Name="SMU Device Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/SMU Device Name Extract.vi"/>
+			<Item Name="DUT Bring Up Pin &amp; Pattern.vi" Type="VI" URL="../Digital Pattern Sequencer/DUT Bring Up Pin &amp; Pattern.vi"/>
+			<Item Name="DPI Initialization.vi" Type="VI" URL="../Digital Pattern Sequencer/DPI Initialization.vi"/>
+			<Item Name="Run TDR.vi" Type="VI" URL="../Digital Pattern Sequencer/Run TDR.vi"/>
+			<Item Name="TDR Feature.vi" Type="VI" URL="../Digital Pattern Sequencer/TDR Feature.vi"/>
+		</Item>
 		<Item Name="Digital Pattern Sequencer UI.lvlib" Type="Library" URL="../Digital Pattern Sequencer UI/Digital Pattern Sequencer UI.lvlib"/>
 		<Item Name="Digital Pattern Sequencer.lvclass" Type="LVClass" URL="../Digital Pattern Sequencer/Digital Pattern Sequencer.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
@@ -34,7 +55,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Digital Pattern Sequencer.lvclass/Framework Defined/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1520A470-F4A1-4D15-80F3-503E76027D6E}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">100</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DigitalPatternSequencer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Digital Pattern Sequencer/DigitalPatternSequencer.exe</Property>
@@ -73,7 +94,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{329D029F-B521-4EA7-9016-251D609F696D}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">100</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Digital Pattern Sequencer UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Digital Pattern Sequencer UI.lvlibp</Property>
