@@ -14,26 +14,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="SubVI" Type="Folder">
-			<Item Name="DUT Bring Up.vi" Type="VI" URL="../Digital Pattern Sequencer/DUT Bring Up.vi"/>
-			<Item Name="SMU Channel Number Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/SMU Channel Number Extract.vi"/>
-			<Item Name="File Path Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/File Path Extract.vi"/>
-			<Item Name="DUT Bringup Search for correct digipat File.vi" Type="VI" URL="../Digital Pattern Sequencer/DUT Bringup Search for correct digipat File.vi"/>
-			<Item Name="DUT Bringup check if using SMU.vi" Type="VI" URL="../Digital Pattern Sequencer/DUT Bringup check if using SMU.vi"/>
-			<Item Name="PPMU Level Settings Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/PPMU Level Settings Extract.vi"/>
-			<Item Name="SMU Level Settings Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/SMU Level Settings Extract.vi"/>
-			<Item Name="Device Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/Device Name Extract.vi"/>
-			<Item Name="Parse XML String for Multiple Nodes.vi" Type="VI" URL="../Digital Pattern Sequencer/Parse XML String for Multiple Nodes.vi"/>
-			<Item Name="Burst Pattern.vi" Type="VI" URL="../Digital Pattern Sequencer/Burst Pattern.vi"/>
-			<Item Name="Pin Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/Pin Name Extract.vi"/>
-			<Item Name="DPI Configuration.vi" Type="VI" URL="../Digital Pattern Sequencer/DPI Configuration.vi"/>
-			<Item Name="SMU Device Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/SMU Device Name Extract.vi"/>
-			<Item Name="DUT Bring Up Pin &amp; Pattern.vi" Type="VI" URL="../Digital Pattern Sequencer/DUT Bring Up Pin &amp; Pattern.vi"/>
-			<Item Name="DPI Initialization.vi" Type="VI" URL="../Digital Pattern Sequencer/DPI Initialization.vi"/>
-			<Item Name="Run TDR.vi" Type="VI" URL="../Digital Pattern Sequencer/Run TDR.vi"/>
-			<Item Name="TDR Feature.vi" Type="VI" URL="../Digital Pattern Sequencer/TDR Feature.vi"/>
-			<Item Name="Patten Name Extract.vi" Type="VI" URL="../Digital Pattern Sequencer/Patten Name Extract.vi"/>
-		</Item>
 		<Item Name="Digital Pattern Sequencer UI.lvlib" Type="Library" URL="../Digital Pattern Sequencer UI/Digital Pattern Sequencer UI.lvlib"/>
 		<Item Name="Digital Pattern Sequencer.lvclass" Type="LVClass" URL="../Digital Pattern Sequencer/Digital Pattern Sequencer.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
